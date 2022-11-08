@@ -1,6 +1,7 @@
 .app {
   padding: 30px;
-  background-color: floralwhite;
+  background-color: wheat;
+  height: 100vh;
 }
 
 .todo {

@@ -1,7 +1,8 @@
 import { React, useState } from "react";
 import { Button, Form } from 'react-bootstrap';
+import './TasksForm.css'
 
-export const FormTasks = ({ addTask }) => {
+export const TasksForm = ({ addTask }) => {
   const [value, setValue] = useState("");
 
   const handleSubmit = async (e) => {

@@ -3,7 +3,7 @@ import "./App.css";
 import { Card } from 'react-bootstrap';
 import { getAllTasks,createTask,deleteTask, updateTaskStatus } from './services/TasksService';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { FormTasks } from "./components/FormTasks";
+import { TasksForm } from "./components/TasksForm";
 import { Task } from "./components/Task";
 
 
@@ -36,8 +36,8 @@ const App = () => {
   return (
     <div className="app">
       <div className="container">
-        <h1 className="text-center mb-4">Todo List</h1>
-        <FormTasks addTask={addTask} />
+        <h1 className="text-center mb-4">Todo App</h1>
+        <TasksForm addTask={addTask} />
         <div>
           {tasks.map((task) => (
             <Card>
