@@ -16,8 +16,8 @@ export const TasksForm = ({ addTask }) => {
   return (
     <Form onSubmit={handleSubmit}>
       <Form.Group>
-        <Form.Label><b>Add Todo</b></Form.Label>
-        <Form.Control type="text" className="input" value={value} onChange={e => setValue(e.target.value)} placeholder="Add new todo" />
+        <Form.Label><b>Add Task</b></Form.Label>
+        <Form.Control type="text" className="input" value={value} onChange={e => setValue(e.target.value)} placeholder="Add new Task" />
       </Form.Group>
       <Button variant="primary mb-3" type="submit">
         Submit

@@ -1,12 +1,24 @@
+@import url(https://fonts.googleapis.com/css?family=Luckiest+Guy);
+
 .app {
-  padding: 30px;
+  padding: 30px 200px;
   background-color: wheat;
   height: 100vh;
 }
 
-.todo {
+.Task {
   align-items: center;
   display: flex;
   font-size: 18px;
   justify-content: space-between;
+}
+
+.TaskContainer{
+  overflow-y: scroll;
+  max-height: 300px;
+}
+
+h1{
+  font-family: 'Luckiest Guy';
+  font-size: 50px;
 }
