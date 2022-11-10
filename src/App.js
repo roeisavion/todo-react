@@ -41,7 +41,10 @@ const App = () => {
   return (
     <div className="app">
       <div className="container">
+        <div className="headContainer">
         <h1 className="text-center mb-4">Task App</h1>
+        <img className="todoPNG" alt="todo list picture" src="./PNG/todo+penciel.png"/>
+        </div>
         <TasksForm addTask={addTask} />
         <div className="TaskContainer">
           {tasks.map((task) => (
